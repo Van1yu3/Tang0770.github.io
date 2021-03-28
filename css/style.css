@@ -1306,76 +1306,53 @@ pre .javascript .function {
 .post-toc-wrap .post-toc .nav .active-current > a .nav-text {
   color: var(--primary-color);
 }
-.valine-container #vcomments .vwrap {
-  border: 1px solid var(--third-text-color);
-}
-.valine-container #vcomments .vwrap .vheader .vinput {
-  color: var(--default-text-color);
-  border-color: var(--third-text-color);
-}
-.valine-container #vcomments .vwrap .vheader .vinput:focus {
-  border-bottom: 1px dashed var(--primary-color) !important;
-}
-.valine-container #vcomments .vwrap .vedit .veditor {
+.twikoo-container #twikoo .tk-meta-input .el-input .el-input-group__prepend {
   color: var(--default-text-color);
 }
-.valine-container #vcomments .vwrap .vedit .vctrl .vicon {
+.twikoo-container #twikoo .tk-meta-input .el-input input {
+  color: var(--default-text-color);
+}
+.twikoo-container #twikoo .tk-input textarea {
+  color: var(--default-text-color);
+}
+.twikoo-container #twikoo .actions .tk-row-actions-start .tk-action-icon svg {
   fill: var(--default-text-color);
 }
-.valine-container #vcomments .vwrap .vedit .vctrl .vicon.actived {
-  fill: var(--primary-color);
+.twikoo-container #twikoo .actions .tk-row-actions-start .tk-action-icon.OwO .OwO-body {
+  color: var(--default-text-color);
+  background-color: var(--background-color);
 }
-.valine-container #vcomments .vwrap button.vsubmit {
-  background: transparent !important;
-  color: var(--default-text-color) !important;
-  border: 1px solid var(--default-text-color) !important;
-}
-.valine-container #vcomments .vwrap button.vsubmit:hover {
-  color: var(--primary-color) !important;
-  border: 1px solid var(--primary-color) !important;
-}
-.valine-container #vcomments .vcount {
+.twikoo-container #twikoo .actions .tk-preview span {
+  background: var(--second-background-color);
   color: var(--default-text-color);
 }
-.valine-container #vcomments .vcount .vnum {
-  color: var(--second-text-color);
+.twikoo-container #twikoo .tk-preview-container {
+  color: var(--default-text-color);
 }
-.valine-container #vcomments .vcard .vnick .author {
-  font-weight: 450;
-  font-size: 12px;
-  padding: 2px;
+.twikoo-container #twikoo .tk-comments-container .tk-comments-count span {
+  color: var(--default-text-color);
+}
+.twikoo-container #twikoo .tk-main {
+  margin-bottom: 20px;
+}
+.twikoo-container #twikoo .tk-main .tk-meta .tk-nick {
+  color: var(--default-text-color);
+}
+.twikoo-container #twikoo .tk-main .tk-meta .tk-tag.tk-tag-green {
   background: -webkit-linear-gradient(45deg, #e3565e, #ee854b, #f6c258, #90c68a, #5fb3b3, #69c, #c594c5);
   background: linear-gradient(45deg, #e3565e, #ee854b, #f6c258, #90c68a, #5fb3b3, #69c, #c594c5);
   color: #fff;
-  margin-left: 2px;
-  border-radius: 2px;
+  border: none;
+  border-radius: 5px;
 }
-.valine-container #vcomments .vcard .vhead .vnick {
-  color: var(--primary-color);
-}
-.valine-container #vcomments .vcard .vhead .vsys {
-  color: var(--default-text-color);
-  background: var(--fourth-text-color) !important;
-}
-.valine-container #vcomments .vcard .vcontent P {
+.twikoo-container #twikoo .tk-main .tk-meta .tk-time time {
   color: var(--default-text-color);
 }
-.valine-container #vcomments .vcard .vcontent P code {
-  color: var(--code-foreground);
-  background: var(--code-background);
+.twikoo-container #twikoo .tk-main .tk-content {
+  color: var(--default-text-color);
 }
-.valine-container #vcomments .vcard .vh {
-  border-bottom-color: var(--border-color);
-}
-.valine-container #vcomments .vcard .vquote {
-  border-left-color: var(--border-color);
-}
-.valine-container #vcomments .vcopy {
+.twikoo-container #twikoo .tk-main .tk-expand {
   color: var(--third-text-color);
-}
-.valine-container #vcomments .vpage .vmore {
-  border: 1px solid var(--border-color);
-  color: var(--second-text-color);
 }
 .comments-container {
   display: inline-block;
@@ -2006,7 +1983,7 @@ pre .javascript .function {
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
-  background: url("/images/bg.svg") center center/cover no-repeat;
+  background: url("/images/bg/ok/bg5.jpg") center center/cover no-repeat;
   background-position-y: 76px;
 }
 @media (max-width: 780px) {
